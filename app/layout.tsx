@@ -17,10 +17,8 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`antialiased`}>
 				<ClerkProvider>
-          <ThemeProvider>
-            {children}
-          </ThemeProvider>
-        </ClerkProvider>
+					<ThemeProvider>{children}</ThemeProvider>
+				</ClerkProvider>
 			</body>
 		</html>
 	);

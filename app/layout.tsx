@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
 import ThemeProvider from "./_components/providers/ThemeProvider";
+import ConvexClientProvider from "./_components/providers/ConvexClerkProvider";
 
 export const metadata: Metadata = {
 	title: "Hangooout",
@@ -16,9 +16,9 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`antialiased`}>
-				<ClerkProvider>
+				<ConvexClientProvider>
 					<ThemeProvider>{children}</ThemeProvider>
-				</ClerkProvider>
+				</ConvexClientProvider>
 			</body>
 		</html>
 	);

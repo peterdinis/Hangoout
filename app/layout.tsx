@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import ConvexClientProvider from "./_components/providers/ConvexClerkProvider";
 import ThemeProvider from "./_components/providers/ThemeProvider";
-import Navigation from "./_components/shared/Navigation";
+import Navigation from "./_components/shared/navigation/Navigation";
 
 export const metadata: Metadata = {
 	title: "Hangooout",

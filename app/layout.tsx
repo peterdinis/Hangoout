@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import ThemeProvider from "./_components/providers/ThemeProvider";
 import ConvexClientProvider from "./_components/providers/ConvexClerkProvider";
+import ThemeProvider from "./_components/providers/ThemeProvider";
 
 export const metadata: Metadata = {
 	title: "Hangooout",

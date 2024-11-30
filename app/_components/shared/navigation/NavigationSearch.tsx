@@ -10,7 +10,7 @@ const NavigationSearch: FC = () => {
 			<Input
 				type="text"
 				name="q"
-				className="w-full py-4 px-5 pl-14 text-lg bg-white rounded-xl border border-gray-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+				className="w-full py-4 px-5 pl-14 text-lg bg-white dark:bg-background rounded-xl border border-gray-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
 				placeholder="Search..."
 			/>
 			<Search className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400 w-6 h-6" />

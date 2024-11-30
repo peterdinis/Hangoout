@@ -6,7 +6,7 @@ import type { FC } from "react";
 
 const NavigationSearch: FC = () => {
 	return (
-		<Form action="/search" className="relative w-full">
+		<Form action="/search" className="relative w-full flex justify-center items-center">
 			<Input
 				type="text"
 				name="q"
@@ -16,7 +16,7 @@ const NavigationSearch: FC = () => {
 			<Search className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400 w-6 h-6" />
 			<Button
 				type="submit"
-				className="absolute right-0 top-1/2 -translate-y-1/2 bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
+				className="absolute right-[-0.25rem] top-1/2 -translate-y-1/2 bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
 			>
 				Search
 			</Button>

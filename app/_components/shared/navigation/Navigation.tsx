@@ -25,7 +25,7 @@ const Navigation: FC = () => {
           </div>
         </div>
 
-        <div className="w-full lg:max-w-2xl">
+        <div className="w-full flex justify-center items-center lg:max-w-2xl">
             <NavigationSearch />
         </div>
       </div>
